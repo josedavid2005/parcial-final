@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen </title>
+</head>
+<body>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+class Carro {
+    constructor(marca, modelo, año, color, precio) {
+      this.marca = marca;
+      this.modelo = modelo;
+      this.año = año;
+      this.color = color;
+      this.precio = precio;
+    }
+  }
+    const carros = [
+    new Carro('Toyota', 'Corolla', 2020, 'Rojo', 20000),
+    new Carro('Honda', 'Civic', 2018, 'Azul', 18000),
+    new Carro('Ford', 'Mustang', 2022, 'Negro', 35000),
+    new Carro('Chevrolet', 'Camaro', 2019, 'Blanco', 32000)
+  ];
+    console.log(carros);
